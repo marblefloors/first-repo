@@ -1,0 +1,259 @@
+html {
+  /*hide a horizontal scroll*/
+  overflow-x: hidden;
+  /*slow scroll*/
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Monospace, Arial;
+  /*without paddings*/
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../img/Rectangle.png");
+  position: fixed;
+  width: 1535px;
+  height: 84px;
+  top: 0;
+}
+#homePage {
+  padding-top: 200px;
+  margin-top: -171px;
+  background-clip: content-box;
+}
+#Problem {
+  padding-top: 110px;
+  margin-top: -83px;
+  background-clip: content-box;
+}
+#PiperCoin {
+  padding-top: 110px;
+  margin-top: -83px;
+  background-clip: content-box;
+}
+#ourTeam {
+  padding-top: 110px;
+  margin-top: -83px;
+  background-clip: content-box;
+}
+/*.piedpipper {
+  color: #fff;
+  position: absolute;
+  top: 28px;
+  left: 250px;
+  font-style: normal;
+  font-weight: 380;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}*/
+.problem {
+  color: white;
+  position: absolute;
+  width: 160px;
+  height: 29px;
+  top: 28px;
+  left: 913px;
+  font-style: normal;
+  font-weight: 380;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+.PiedPiperCoin {
+  color: white;
+  position: absolute;
+  width: 203px;
+  height: 29px;
+  left: 1058px;
+  top: 28px;
+  font-style: normal;
+  font-weight: 380;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+.team {
+  color: white;
+  position: absolute;
+  width: 95px;
+  height: 29px;
+  left: 1250px;
+  top: 28px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+.container {
+  width: 100%;
+  max-width: 1535px;
+  margin: 0 auto;
+}
+.headLogo {
+  position: absolute;
+  top: 16px;
+  left: 180px;
+  width: 155px;
+  float: left;
+  margin: 7px 7px 7px 0;
+}
+.piperNet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../img/1535.jpg");
+  width: 1535px;
+  height: 307px; 
+  margin-top: 84px;
+}
+.netText {
+  display: inline;
+  color: #fff;
+  font-size: 54px;
+  text-align: center;
+  margin: 0px 0px 40px 0px;
+}
+.theProblem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+  margin: 0px 0px 70px 0px;
+}
+.problemText {
+  display: inline;
+  color: #007765;
+  font-size: 48px;
+  line-height: 57px;
+  text-align: center;
+  margin: 40px 0px 0px 0px;
+}
+.beneath {
+  display: block;
+  width: 847px;
+  height: 372px;
+  padding-left: 345px;
+  padding-right: 345px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.blueBack {
+  background-image: url("../img/imgonline-com-ua-Resize-DMnWDxwuX4.jpg");
+  width: 1535px;
+  height: 368px;
+}
+.blueText {
+  display: block;
+  color: #fff;
+  width: 681px;
+  height: 184px;
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+  margin: 0px 427px 0px 427px;
+  padding-top: 97px;
+}
+.introducingPlace {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  margin: 0px 0px 70px 0px;
+}
+.introducingText {
+  display: inline;
+  color: #007765;
+  font-size: 48px;
+  line-height: 57px;
+  text-align: center;
+  margin: 40px 0px 0px 0px;
+}
+.piedPipers {
+  display: block;
+  width: 847px;
+  height: 284px;
+  font-size: 24px;
+  line-height: 28px;
+  padding-left: 345px;
+  padding-right: 345px;
+  padding-top: 36px;
+}
+.PPClogo {
+  float: left;
+}
+#pIMG {
+  padding-left: 112px;
+  margin: 7px 7px 7px 0;
+}
+.teamPlace {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #EEEEEE;
+}
+.teamText {
+  display: inline;
+  color: #007765;
+  font-size: 48px;
+  text-align: center;
+  margin: 40px 0px 0px 0px;
+}
+.teamCards {
+  margin: -30px 0px 0px 0px ;
+}
+.figure {
+  margin: 80px 80px 0px 80px;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.cardsIMG {
+  width: 350px;
+  height: 283px;
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding-bottom: 55px;
+}
+.figcaption {
+  margin: -10px 0px 0px 0px ;
+}
+.name__card {
+  font-size: 24px;
+  line-height: 28px;
+  color: #007765;
+  margin: 20px 0px 10px 0px ;
+}
+.cards__foto {
+  width: 168px;
+  height: 168px;
+}
+.footerBack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../img/imgonline-com-ua-Resize-UTGZluXXAT.jpg");
+  width: 1535px;
+  height: 134px;
+}
+.footerText {
+  display: inline;
+  color: #fff;
+  width: 650px;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  margin: 0 auto;
+}
